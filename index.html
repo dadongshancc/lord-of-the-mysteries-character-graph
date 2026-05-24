@@ -170,13 +170,14 @@
       height: 100%;
       overflow: hidden;
     }
-  body.cg-embed #character-graph-prototype-root {
+    body.cg-embed #character-graph-prototype-root {
       height: 100%;
       overflow: hidden;
     }
     body.cg-embed .cg-shell {
       grid-template-columns: minmax(0, 1.6fr) minmax(250px, 0.88fr);
       height: 100%;
+      min-height: 0;
       align-items: stretch;
       gap: 18px;
     }
@@ -227,38 +228,70 @@
     }
     @media (max-width: 560px) {
       body.cg-embed {
-        overflow: auto;
+        overflow: hidden;
       }
       body.cg-embed #character-graph-prototype-root {
-        height: auto;
-        min-height: 100%;
-        overflow: visible;
+        height: 100%;
+        overflow: hidden;
       }
       body.cg-embed .cg-shell {
         grid-template-columns: 1fr;
-        height: auto;
-        gap: 12px;
+        grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+        height: 100%;
+        min-height: 0;
+        gap: 8px;
       }
       body.cg-embed .cg-panel {
-        height: auto;
+        height: 100%;
+        min-height: 0;
       }
       body.cg-embed .cg-graph {
-        padding: 12px;
+        padding: 8px;
       }
       body.cg-embed .cg-side {
         display: flex;
-        overflow: visible;
-        padding: 16px;
+        overflow: hidden;
+        justify-content: flex-start;
+        padding: 9px 12px;
+        gap: 7px;
       }
       body.cg-embed .cg-canvas-shell {
-        height: 260px;
+        height: auto;
         border-radius: 16px;
       }
       body.cg-embed .cg-name {
-        font-size: 22px;
+        font-size: 17px;
+        line-height: 1.05;
+      }
+      body.cg-embed .cg-score-row {
+        gap: 10px;
+      }
+      body.cg-embed .cg-score-number {
+        font-size: 11px;
+      }
+      body.cg-embed .cg-score-track {
+        height: 7px;
+      }
+      body.cg-embed .cg-section-title {
+        margin-bottom: 5px;
+        font-size: 14px;
+      }
+      body.cg-embed .cg-top-block {
+        margin-top: 0;
       }
       body.cg-embed .cg-contact-list {
-        gap: 10px;
+        gap: 6px;
+      }
+      body.cg-embed .cg-contact {
+        padding: 6px 9px;
+        border-radius: 11px;
+      }
+      body.cg-embed .cg-contact strong {
+        font-size: 11px;
+        margin-bottom: 4px;
+      }
+      body.cg-embed .cg-contact-track {
+        height: 4px;
       }
     }
     @media (max-width: 760px) {
@@ -279,7 +312,8 @@
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script>
 (async () => {
-    const isEmbedded = window.self !== window.top;
+    const params = new URLSearchParams(window.location.search);
+    const isEmbedded = window.self !== window.top || params.get("embed") === "1";
     if (isEmbedded) {
       document.body.classList.add("cg-embed");
     }
