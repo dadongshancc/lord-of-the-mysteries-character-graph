@@ -226,18 +226,39 @@
       margin-bottom: 6px;
     }
     @media (max-width: 560px) {
+      body.cg-embed {
+        overflow: auto;
+      }
+      body.cg-embed #character-graph-prototype-root {
+        height: auto;
+        min-height: 100%;
+        overflow: visible;
+      }
       body.cg-embed .cg-shell {
         grid-template-columns: 1fr;
-        gap: 0;
+        height: auto;
+        gap: 12px;
+      }
+      body.cg-embed .cg-panel {
+        height: auto;
       }
       body.cg-embed .cg-graph {
         padding: 12px;
       }
       body.cg-embed .cg-side {
-        display: none;
+        display: flex;
+        overflow: visible;
+        padding: 16px;
       }
       body.cg-embed .cg-canvas-shell {
+        height: 260px;
         border-radius: 16px;
+      }
+      body.cg-embed .cg-name {
+        font-size: 22px;
+      }
+      body.cg-embed .cg-contact-list {
+        gap: 10px;
       }
     }
     @media (max-width: 760px) {
