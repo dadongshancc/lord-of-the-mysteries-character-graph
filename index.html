@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Graph Prototype</title>
+  <style>
+    body {
+        margin: 0;
+        padding: 28px;
+        background: #f5f5f5;
+      }
+      body.cg-embed {
+        padding: 0;
+        background: transparent;
+      }
+    </style>
+</head>
+<body>
+
+<div id="character-graph-prototype-root"></div>
+<style>
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  html {
+    height: 100%;
+  }
+  .cg-shell {
+    display: grid;
+    grid-template-columns: minmax(0, 1.85fr) minmax(290px, 0.9fr);
+    gap: 28px;
+    padding: 0;
+    color: #111111;
+    font-family: "Inter", "Microsoft YaHei", sans-serif;
+  }
+  .cg-panel {
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 24px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.05);
+  }
+  .cg-graph {
+    padding: 20px;
+  }
+  .cg-side {
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  .cg-canvas-shell {
+    border-radius: 22px;
+    background: #fafafa;
+    border: 1px solid #efefef;
+    overflow: hidden;
+  }
+  .cg-canvas {
+    width: 100%;
+    height: 660px;
+    display: block;
+    background:
+      radial-gradient(circle at 20% 20%, rgba(0, 0, 0, 0.03), transparent 30%),
+      #fcfcfc;
+    cursor: grab;
+  }
+  .cg-canvas:active {
+    cursor: grabbing;
+  }
+  .cg-name {
+    margin: 0;
+    font-size: 48px;
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+    color: #111111;
+    word-break: break-word;
+  }
+  .cg-score-row {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: 18px;
+  }
+  .cg-score-number {
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    color: #111111;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .cg-score-track {
+    position: relative;
+    height: 12px;
+    background: #e8e8e8;
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .cg-score-fill {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 0;
+    background: #111111;
+    border-radius: inherit;
+    transition: width 0.24s ease;
+  }
+  .cg-meta {
+    display: none;
+  }
+  .cg-section-title {
+    margin: 0 0 18px;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #111111;
+  }
+  .cg-top-block {
+    margin-top: 30px;
+    padding-top: 8px;
+  }
+  .cg-contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .cg-contact {
+    width: 100%;
+    border: 1px solid #ececec;
+    background: #fafafa;
+    border-radius: 18px;
+    padding: 16px 18px;
+    cursor: pointer;
+    text-align: left;
+    transition: transform 0.16s ease, border-color 0.16s ease, background-color 0.16s ease;
+  }
+  .cg-contact:hover {
+    transform: translateY(-1px);
+    border-color: #d8d8d8;
+    background: #f6f6f6;
+  }
+  .cg-contact strong {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    color: #111111;
+    margin-bottom: 12px;
+  }
+  .cg-contact-track {
+    position: relative;
+    height: 6px;
+    background: #e9e9eb;
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .cg-contact-fill {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 0;
+    background: #7c7c82;
+    border-radius: inherit;
+  }
+  .cg-empty {
+      margin: 0;
+      font-size: 13px;
+      color: #8a8a8f;
+    }
+    body.cg-embed {
+      height: 100%;
+      overflow: hidden;
+    }
+  body.cg-embed #character-graph-prototype-root {
+      height: 100%;
+      overflow: hidden;
+    }
+    body.cg-embed .cg-shell {
+      grid-template-columns: minmax(0, 1.6fr) minmax(250px, 0.88fr);
+      height: 100%;
+      align-items: stretch;
+      gap: 18px;
+    }
+    body.cg-embed .cg-panel {
+      height: 100%;
+      min-height: 0;
+      border-radius: 18px;
+      box-shadow: none;
+      border-color: #eceef3;
+    }
+    body.cg-embed .cg-graph {
+      display: flex;
+      padding: 18px 14px 14px;
+    }
+    body.cg-embed .cg-side {
+      padding: 16px 18px 14px;
+      justify-content: space-between;
+      gap: 14px;
+      overflow: hidden;
+    }
+    body.cg-embed .cg-canvas-shell {
+      flex: 1 1 auto;
+      min-height: 0;
+      border-radius: 18px;
+    }
+    body.cg-embed .cg-canvas {
+      height: 100%;
+    }
+    body.cg-embed .cg-name {
+      font-size: 24px;
+      line-height: 1.02;
+    }
+    body.cg-embed .cg-section-title {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    body.cg-embed .cg-top-block {
+      margin-top: 2px;
+      padding-top: 0;
+    }
+    body.cg-embed .cg-contact {
+      padding: 10px 12px;
+      border-radius: 14px;
+    }
+    body.cg-embed .cg-contact strong {
+      font-size: 15px;
+      margin-bottom: 6px;
+    }
+    @media (max-width: 760px) {
+      .cg-shell {
+        grid-template-columns: 1fr;
+    }
+    .cg-canvas {
+      height: 560px;
+    }
+    .cg-name {
+      font-size: 38px;
+    }
+    .cg-score-number {
+      font-size: 14px;
+    }
+  }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script>
+(async () => {
+    const isEmbedded = window.self !== window.top;
+    if (isEmbedded) {
+      document.body.classList.add("cg-embed");
+    }
+  const root = document.getElementById("character-graph-prototype-root");
+  if (!root || typeof d3 === "undefined") return;
+  const dataUrl = new URL("./character_graph_data.json", window.location.href);
+  let graphData;
+  try {
+    const response = await fetch(dataUrl, { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error(`Failed to load graph data: ${response.status}`);
+    }
+    graphData = await response.json();
+  } catch (error) {
+    console.error(error);
+    root.innerHTML = '<section class="cg-shell"><section class="cg-panel cg-graph" style="display:flex;align-items:center;justify-content:center;min-height:320px;padding:24px;"><p class="cg-empty">角色关系数据加载失败，请检查 character_graph_data.json 是否存在。</p></section></section>';
+    return;
+  }
+
+  const defaultCharacter = "克莱恩·莫雷蒂";
+
+  root.innerHTML = `
+    <section class="cg-shell">
+      <section class="cg-panel cg-graph">
+        <div class="cg-canvas-shell">
+          <svg class="cg-canvas" viewBox="0 0 980 660" aria-label="角色关系图"></svg>
+        </div>
+      </section>
+      <aside class="cg-panel cg-side">
+        <h3 class="cg-name"></h3>
+        <div>
+          <div class="cg-score-row">
+            <div class="cg-score-number">核心程度</div>
+            <div class="cg-score-track"><div class="cg-score-fill"></div></div>
+          </div>
+        </div>
+        <div class="cg-top-block">
+          <p class="cg-section-title">TOP 3</p>
+          <div class="cg-contact-list"></div>
+        </div>
+      </aside>
+    </section>
+  `;
+
+  const nodeMap = new Map(graphData.nodes.map((node) => [node.id, { ...node }]));
+  const adjacency = new Map(graphData.nodes.map((node) => [node.id, []]));
+  graphData.edges.forEach((edge) => {
+    adjacency.get(edge.source).push(edge);
+    adjacency.get(edge.target).push(edge);
+  });
+
+  const svg = d3.select(root.querySelector(".cg-canvas"));
+  const width = 980;
+  const height = 660;
+  const backgroundRect = svg.append("rect")
+    .attr("width", width)
+    .attr("height", height)
+    .attr("fill", "transparent");
+  const g = svg.append("g");
+  const edgeLayer = g.append("g");
+  const nodeLayer = g.append("g");
+
+  const xScale = (value) => value * width;
+  const yScale = (value) => value * height;
+
+  const nodes = graphData.nodes.map((node) => ({
+    ...node,
+    x: xScale(node.x),
+    y: yScale(node.y),
+    fx: null,
+    fy: null,
+  }));
+  const links = graphData.edges.map((edge) => ({
+    ...edge,
+    source: edge.source,
+    target: edge.target,
+  }));
+
+  function nodeRadius(node) {
+    return 5 + (node.core_score / 100) * 13;
+  }
+
+  function dominantRelation(relations) {
+    const entries = Object.entries(relations).sort((a, b) => (b[1] - a[1]) || a[0].localeCompare(b[0], "zh-Hans-CN"));
+    if (!entries.length) return "未标注";
+    return `${entries[0][0]} × ${entries[0][1]}`;
+  }
+
+  function topContacts(nodeId) {
+    return adjacency.get(nodeId)
+      .map((edge) => {
+        const otherId = edge.source === nodeId ? edge.target : edge.source;
+        const otherNode = nodeMap.get(otherId);
+        return {
+          id: otherId,
+          label: otherNode.label,
+          weight: edge.weight,
+          weighted_degree: otherNode.weighted_degree,
+          relation_summary: dominantRelation(edge.relations),
+        };
+      })
+      .sort((a, b) => (b.weight - a.weight) || (b.weighted_degree - a.weighted_degree) || a.label.localeCompare(b.label, "zh-Hans-CN"))
+      .slice(0, 3);
+  }
+
+  const simulation = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id((d) => d.id).distance((d) => 28 + Math.max(0, 88 - d.weight * 2.2)).strength((d) => Math.min(0.92, 0.16 + d.weight / 26)))
+    .force("charge", d3.forceManyBody().strength(-150))
+    .force("collide", d3.forceCollide().radius((d) => nodeRadius(d) + 7).iterations(2))
+    .force("center", d3.forceCenter(width / 2, height / 2))
+    .force("x", d3.forceX((d) => xScale(d.x / width)).strength(0.018))
+    .force("y", d3.forceY((d) => yScale(d.y / height)).strength(0.018))
+    .alpha(0.55)
+    .alphaDecay(0.06);
+
+  const linkSelection = edgeLayer.selectAll("line")
+    .data(links)
+    .enter()
+    .append("line")
+    .attr("stroke", "#d4d4d8")
+    .attr("stroke-linecap", "round")
+    .attr("stroke-opacity", 0.48)
+    .attr("stroke-width", (d) => 0.9 + Math.min(3.2, d.weight * 0.08));
+
+  const nodeSelection = nodeLayer.selectAll("circle")
+    .data(nodes)
+    .enter()
+    .append("circle")
+    .attr("r", (d) => nodeRadius(d))
+    .attr("fill", "#f8f8f8")
+    .attr("stroke", "#111111")
+    .attr("stroke-width", 1.6)
+    .style("cursor", "pointer");
+
+  nodeSelection.append("title").text((d) => d.label);
+
+  function renderPositions() {
+    linkSelection
+      .attr("x1", (d) => d.source.x)
+      .attr("y1", (d) => d.source.y)
+      .attr("x2", (d) => d.target.x)
+      .attr("y2", (d) => d.target.y);
+
+    nodeSelection
+      .attr("cx", (d) => d.x)
+      .attr("cy", (d) => d.y);
+  }
+
+  function computeGraphTransform() {
+    const minX = d3.min(nodes, (d) => d.x - nodeRadius(d)) ?? 0;
+    const maxX = d3.max(nodes, (d) => d.x + nodeRadius(d)) ?? width;
+    const minY = d3.min(nodes, (d) => d.y - nodeRadius(d)) ?? 0;
+    const maxY = d3.max(nodes, (d) => d.y + nodeRadius(d)) ?? height;
+    const boundsWidth = Math.max(1, maxX - minX);
+    const boundsHeight = Math.max(1, maxY - minY);
+    const paddingX = isEmbedded ? 74 : 48;
+    const paddingY = isEmbedded ? 80 : 52;
+    const scale = Math.min(
+      isEmbedded ? 0.98 : 1.06,
+      Math.min((width - paddingX * 2) / boundsWidth, (height - paddingY * 2) / boundsHeight)
+    );
+    const centerX = (minX + maxX) / 2;
+    const centerY = (minY + maxY) / 2;
+    const targetY = isEmbedded ? height * 0.57 : height * 0.5;
+    return d3.zoomIdentity
+      .translate(width / 2 - centerX * scale, targetY - centerY * scale)
+      .scale(scale);
+  }
+
+  const zoomBehavior = d3.zoom()
+    .scaleExtent([0.58, 2.8])
+    .on("zoom", (event) => {
+      g.attr("transform", event.transform);
+    });
+
+  svg.call(zoomBehavior);
+
+  function dragStarted(event) {
+    if (!event.active) simulation.alphaTarget(0.18).restart();
+    event.subject.fx = event.subject.x;
+    event.subject.fy = event.subject.y;
+  }
+
+  function dragged(event) {
+    event.subject.fx = event.x;
+    event.subject.fy = event.y;
+  }
+
+  function dragEnded(event) {
+    if (!event.active) simulation.alphaTarget(0);
+    event.subject.fx = null;
+    event.subject.fy = null;
+  }
+
+  nodeSelection.call(
+    d3.drag()
+      .on("start", dragStarted)
+      .on("drag", dragged)
+      .on("end", dragEnded)
+  );
+
+  simulation.on("tick", renderPositions);
+  simulation.stop();
+  for (let i = 0; i < 260; i += 1) {
+    simulation.tick();
+  }
+  renderPositions();
+  svg.call(zoomBehavior.transform, computeGraphTransform());
+
+  const nameEl = root.querySelector(".cg-name");
+  const scoreFillEl = root.querySelector(".cg-score-fill");
+  const contactListEl = root.querySelector(".cg-contact-list");
+
+  let selectedId = nodeMap.has(defaultCharacter) ? defaultCharacter : graphData.nodes[0].id;
+
+    function applyOverviewState() {
+      nodeSelection
+        .attr("fill", "#ffffff")
+        .attr("stroke", "#8f8f96")
+        .attr("stroke-width", 1.45)
+        .attr("opacity", 0.94);
+
+      linkSelection
+        .attr("stroke", "#dddddf")
+        .attr("stroke-opacity", 0.34)
+        .attr("stroke-width", (d) => 0.78 + Math.min(2.4, d.weight * 0.06));
+    }
+
+  function refreshSelection(nodeId) {
+    selectedId = nodeId;
+    const selectedNode = nodeMap.get(nodeId);
+    const neighborIds = new Set((adjacency.get(nodeId) || []).map((edge) => edge.source === nodeId ? edge.target : edge.source));
+
+    nodeSelection
+      .attr("fill", (d) => d.id === nodeId ? "#111111" : neighborIds.has(d.id) ? "#ffffff" : "#ffffff")
+      .attr("stroke", (d) => d.id === nodeId ? "#111111" : neighborIds.has(d.id) ? "#111111" : "#b1b1b7")
+      .attr("stroke-width", (d) => d.id === nodeId ? 2.8 : neighborIds.has(d.id) ? 1.8 : 1.2)
+      .attr("opacity", (d) => d.id === nodeId || neighborIds.has(d.id) ? 1 : 0.72);
+
+    linkSelection
+      .attr("stroke", (d) => d.source.id === nodeId || d.target.id === nodeId ? "#111111" : "#d4d4d8")
+      .attr("stroke-opacity", (d) => d.source.id === nodeId || d.target.id === nodeId ? 0.82 : 0.16)
+      .attr("stroke-width", (d) => d.source.id === nodeId || d.target.id === nodeId ? 1.6 + Math.min(3.8, d.weight * 0.11) : 0.9 + Math.min(3.2, d.weight * 0.08));
+
+    nameEl.textContent = selectedNode.label;
+    scoreFillEl.style.width = `${selectedNode.core_score}%`;
+
+    const contacts = topContacts(nodeId);
+    contactListEl.innerHTML = "";
+    if (!contacts.length) {
+      const empty = document.createElement("p");
+      empty.className = "cg-empty";
+      empty.textContent = "这个角色当前没有可展示的直接联系人。";
+      contactListEl.appendChild(empty);
+      return;
+    }
+
+    contacts.forEach((contact) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "cg-contact";
+      const intensity = Math.max(16, Math.min(100, (contact.weight / Math.max(contacts[0].weight, 1)) * 100));
+      button.innerHTML = `<strong>${contact.label}</strong><div class="cg-contact-track"><div class="cg-contact-fill" style="width:${intensity}%"></div></div>`;
+      button.addEventListener("click", () => refreshSelection(contact.id));
+      contactListEl.appendChild(button);
+    });
+  }
+
+  backgroundRect.on("click", () => {
+      selectedId = null;
+      applyOverviewState();
+  });
+
+  nodeSelection.on("click", (event, d) => {
+    event.stopPropagation();
+    refreshSelection(d.id);
+  });
+
+  applyOverviewState();
+  refreshSelection(selectedId);
+})();
+</script>
+
+</body>
+</html>

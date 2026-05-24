@@ -1,0 +1,2690 @@
+{
+  "nodes": [
+    {
+      "id": "A先生",
+      "label": "A先生",
+      "x": 0.267398,
+      "y": 0.359663,
+      "degree": 6,
+      "weighted_degree": 25,
+      "core_score": 57.19
+    },
+    {
+      "id": "奥黛丽·霍尔",
+      "label": "奥黛丽·霍尔",
+      "x": 0.254557,
+      "y": 0.412344,
+      "degree": 19,
+      "weighted_degree": 181,
+      "core_score": 79.57
+    },
+    {
+      "id": "戴里克·伯格",
+      "label": "戴里克·伯格",
+      "x": 0.219543,
+      "y": 0.434011,
+      "degree": 10,
+      "weighted_degree": 70,
+      "core_score": 69.06
+    },
+    {
+      "id": "克莱恩·莫雷蒂",
+      "label": "克莱恩·莫雷蒂",
+      "x": 0.236934,
+      "y": 0.420387,
+      "degree": 67,
+      "weighted_degree": 858,
+      "core_score": 96.0
+    },
+    {
+      "id": "佛尔思·沃尔",
+      "label": "佛尔思·沃尔",
+      "x": 0.268077,
+      "y": 0.394647,
+      "degree": 13,
+      "weighted_degree": 142,
+      "core_score": 76.92
+    },
+    {
+      "id": "让·马丹",
+      "label": "让·马丹",
+      "x": 0.231722,
+      "y": 0.428202,
+      "degree": 45,
+      "weighted_degree": 345,
+      "core_score": 86.49
+    },
+    {
+      "id": "休·迪尔查",
+      "label": "休·迪尔查",
+      "x": 0.258549,
+      "y": 0.391528,
+      "degree": 17,
+      "weighted_degree": 138,
+      "core_score": 76.61
+    },
+    {
+      "id": "X先生",
+      "label": "X先生",
+      "x": 0.08,
+      "y": 0.47489,
+      "degree": 1,
+      "weighted_degree": 1,
+      "core_score": 18.0
+    },
+    {
+      "id": "阿尔杰·威尔逊",
+      "label": "阿尔杰·威尔逊",
+      "x": 0.253946,
+      "y": 0.376586,
+      "degree": 10,
+      "weighted_degree": 74,
+      "core_score": 69.68
+    },
+    {
+      "id": "夏尔",
+      "label": "夏尔",
+      "x": 0.295337,
+      "y": 0.260533,
+      "degree": 1,
+      "weighted_degree": 6,
+      "core_score": 40.09
+    },
+    {
+      "id": "嘉德丽雅·古斯塔夫",
+      "label": "嘉德丽雅·古斯塔夫",
+      "x": 0.256587,
+      "y": 0.449202,
+      "degree": 14,
+      "weighted_degree": 64,
+      "core_score": 68.04
+    },
+    {
+      "id": "路德维尔",
+      "label": "路德维尔",
+      "x": 0.201985,
+      "y": 0.33579,
+      "degree": 6,
+      "weighted_degree": 20,
+      "core_score": 54.56
+    },
+    {
+      "id": "阿里安娜",
+      "label": "阿里安娜",
+      "x": 0.19294,
+      "y": 0.637111,
+      "degree": 1,
+      "weighted_degree": 2,
+      "core_score": 26.96
+    },
+    {
+      "id": "阿蒙",
+      "label": "阿蒙",
+      "x": 0.220805,
+      "y": 0.360739,
+      "degree": 16,
+      "weighted_degree": 61,
+      "core_score": 67.5
+    },
+    {
+      "id": "帕列斯·索罗亚斯德",
+      "label": "帕列斯·索罗亚斯德",
+      "x": 0.245676,
+      "y": 0.286386,
+      "degree": 3,
+      "weighted_degree": 13,
+      "core_score": 49.42
+    },
+    {
+      "id": "伦纳德·米切尔",
+      "label": "伦纳德·米切尔",
+      "x": 0.241545,
+      "y": 0.378741,
+      "degree": 9,
+      "weighted_degree": 94,
+      "core_score": 72.36
+    },
+    {
+      "id": "罗塞尔·古斯塔夫",
+      "label": "罗塞尔·古斯塔夫",
+      "x": 0.279421,
+      "y": 0.443794,
+      "degree": 11,
+      "weighted_degree": 44,
+      "core_score": 63.77
+    },
+    {
+      "id": "纳斯特",
+      "label": "纳斯特",
+      "x": 0.263442,
+      "y": 0.26447,
+      "degree": 3,
+      "weighted_degree": 6,
+      "core_score": 40.09
+    },
+    {
+      "id": "乌洛琉斯",
+      "label": "乌洛琉斯",
+      "x": 0.18416,
+      "y": 0.253312,
+      "degree": 4,
+      "weighted_degree": 10,
+      "core_score": 46.27
+    },
+    {
+      "id": "原初魔女",
+      "label": "原初魔女",
+      "x": 0.213607,
+      "y": 0.274584,
+      "degree": 6,
+      "weighted_degree": 13,
+      "core_score": 49.42
+    },
+    {
+      "id": "梅迪奇·索伦·埃因霍恩",
+      "label": "梅迪奇·索伦·埃因霍恩",
+      "x": 0.170714,
+      "y": 0.281428,
+      "degree": 4,
+      "weighted_degree": 11,
+      "core_score": 47.42
+    },
+    {
+      "id": "洛薇雅",
+      "label": "洛薇雅",
+      "x": 0.177284,
+      "y": 0.461985,
+      "degree": 6,
+      "weighted_degree": 14,
+      "core_score": 50.31
+    },
+    {
+      "id": "亚当",
+      "label": "亚当",
+      "x": 0.230648,
+      "y": 0.284698,
+      "degree": 5,
+      "weighted_degree": 11,
+      "core_score": 47.42
+    },
+    {
+      "id": "安提哥努斯",
+      "label": "安提哥努斯",
+      "x": 0.215758,
+      "y": 0.329927,
+      "degree": 7,
+      "weighted_degree": 21,
+      "core_score": 55.14
+    },
+    {
+      "id": "阿兹克·艾格斯",
+      "label": "阿兹克·艾格斯",
+      "x": 0.230658,
+      "y": 0.376697,
+      "degree": 10,
+      "weighted_degree": 64,
+      "core_score": 68.04
+    },
+    {
+      "id": "齐林格斯",
+      "label": "齐林格斯",
+      "x": 0.267473,
+      "y": 0.305885,
+      "degree": 4,
+      "weighted_degree": 11,
+      "core_score": 47.42
+    },
+    {
+      "id": "班森",
+      "label": "班森",
+      "x": 0.232777,
+      "y": 0.491462,
+      "degree": 4,
+      "weighted_degree": 36,
+      "core_score": 61.45
+    },
+    {
+      "id": "贝尔纳黛·古斯塔夫",
+      "label": "贝尔纳黛·古斯塔夫",
+      "x": 0.263281,
+      "y": 0.483205,
+      "degree": 7,
+      "weighted_degree": 28,
+      "core_score": 58.52
+    },
+    {
+      "id": "查拉图",
+      "label": "查拉图",
+      "x": 0.218861,
+      "y": 0.4866,
+      "degree": 6,
+      "weighted_degree": 17,
+      "core_score": 52.63
+    },
+    {
+      "id": "艾弥留斯",
+      "label": "艾弥留斯",
+      "x": 0.190525,
+      "y": 0.437258,
+      "degree": 3,
+      "weighted_degree": 17,
+      "core_score": 52.63
+    },
+    {
+      "id": "赫温·兰比斯",
+      "label": "赫温·兰比斯",
+      "x": 0.19273,
+      "y": 0.378175,
+      "degree": 4,
+      "weighted_degree": 13,
+      "core_score": 49.42
+    },
+    {
+      "id": "艾斯·斯内克",
+      "label": "艾斯·斯内克",
+      "x": 0.236857,
+      "y": 0.541886,
+      "degree": 4,
+      "weighted_degree": 18,
+      "core_score": 53.31
+    },
+    {
+      "id": "吉尔希艾斯",
+      "label": "吉尔希艾斯",
+      "x": 0.24619,
+      "y": 0.523058,
+      "degree": 3,
+      "weighted_degree": 19,
+      "core_score": 53.95
+    },
+    {
+      "id": "艾辛格.斯坦顿",
+      "label": "艾辛格.斯坦顿",
+      "x": 0.305968,
+      "y": 0.43367,
+      "degree": 2,
+      "weighted_degree": 8,
+      "core_score": 43.57
+    },
+    {
+      "id": "爱德华兹",
+      "label": "爱德华兹",
+      "x": 0.311476,
+      "y": 0.497382,
+      "degree": 2,
+      "weighted_degree": 5,
+      "core_score": 37.89
+    },
+    {
+      "id": "达尼兹",
+      "label": "达尼兹",
+      "x": 0.254021,
+      "y": 0.424069,
+      "degree": 9,
+      "weighted_degree": 72,
+      "core_score": 69.37
+    },
+    {
+      "id": "安德森",
+      "label": "安德森",
+      "x": 0.247592,
+      "y": 0.462372,
+      "degree": 8,
+      "weighted_degree": 53,
+      "core_score": 65.9
+    },
+    {
+      "id": "不死之王",
+      "label": "不死之王",
+      "x": 0.21891,
+      "y": 0.532706,
+      "degree": 4,
+      "weighted_degree": 11,
+      "core_score": 47.42
+    },
+    {
+      "id": "兰尔乌斯",
+      "label": "兰尔乌斯",
+      "x": 0.228382,
+      "y": 0.345823,
+      "degree": 4,
+      "weighted_degree": 24,
+      "core_score": 56.71
+    },
+    {
+      "id": "邓恩·史密斯",
+      "label": "邓恩·史密斯",
+      "x": 0.222785,
+      "y": 0.391582,
+      "degree": 9,
+      "weighted_degree": 70,
+      "core_score": 69.06
+    },
+    {
+      "id": "布提斯",
+      "label": "布提斯",
+      "x": 0.373412,
+      "y": 0.402422,
+      "degree": 3,
+      "weighted_degree": 5,
+      "core_score": 37.89
+    },
+    {
+      "id": "海柔尔·马赫特",
+      "label": "海柔尔·马赫特",
+      "x": 0.292835,
+      "y": 0.373513,
+      "degree": 3,
+      "weighted_degree": 13,
+      "core_score": 49.42
+    },
+    {
+      "id": "苏茜",
+      "label": "苏茜",
+      "x": 0.288798,
+      "y": 0.433375,
+      "degree": 4,
+      "weighted_degree": 22,
+      "core_score": 55.69
+    },
+    {
+      "id": "梅丽莎",
+      "label": "梅丽莎",
+      "x": 0.232209,
+      "y": 0.469024,
+      "degree": 4,
+      "weighted_degree": 43,
+      "core_score": 63.5
+    },
+    {
+      "id": "弗兰克·李",
+      "label": "弗兰克·李",
+      "x": 0.278709,
+      "y": 0.49572,
+      "degree": 5,
+      "weighted_degree": 15,
+      "core_score": 51.14
+    },
+    {
+      "id": "被缚之神",
+      "label": "被缚之神",
+      "x": 0.325124,
+      "y": 0.747277,
+      "degree": 2,
+      "weighted_degree": 3,
+      "core_score": 31.76
+    },
+    {
+      "id": "斯厄阿",
+      "label": "斯厄阿",
+      "x": 0.365923,
+      "y": 0.9,
+      "degree": 1,
+      "weighted_degree": 2,
+      "core_score": 26.96
+    },
+    {
+      "id": "博诺瓦·古斯塔夫",
+      "label": "博诺瓦·古斯塔夫",
+      "x": 0.381121,
+      "y": 0.522614,
+      "degree": 1,
+      "weighted_degree": 2,
+      "core_score": 26.96
+    },
+    {
+      "id": "克斯玛",
+      "label": "克斯玛",
+      "x": 0.465725,
+      "y": 0.379162,
+      "degree": 1,
+      "weighted_degree": 2,
+      "core_score": 26.96
+    },
+    {
+      "id": "科林·伊利亚特",
+      "label": "科林·伊利亚特",
+      "x": 0.200074,
+      "y": 0.456447,
+      "degree": 6,
+      "weighted_degree": 33,
+      "core_score": 60.44
+    },
+    {
+      "id": "莎伦",
+      "label": "莎伦",
+      "x": 0.209321,
+      "y": 0.475194,
+      "degree": 5,
+      "weighted_degree": 22,
+      "core_score": 55.69
+    },
+    {
+      "id": "戴莉·西蒙尼",
+      "label": "戴莉·西蒙尼",
+      "x": 0.243284,
+      "y": 0.346089,
+      "degree": 6,
+      "weighted_degree": 28,
+      "core_score": 58.52
+    },
+    {
+      "id": "蕾妮特·缇妮科尔",
+      "label": "蕾妮特·缇妮科尔",
+      "x": 0.262584,
+      "y": 0.434256,
+      "degree": 7,
+      "weighted_degree": 30,
+      "core_score": 59.33
+    },
+    {
+      "id": "老尼尔",
+      "label": "老尼尔",
+      "x": 0.204031,
+      "y": 0.419317,
+      "degree": 3,
+      "weighted_degree": 23,
+      "core_score": 56.21
+    },
+    {
+      "id": "恩尤尼",
+      "label": "恩尤尼",
+      "x": 0.189472,
+      "y": 0.414841,
+      "degree": 3,
+      "weighted_degree": 16,
+      "core_score": 51.91
+    },
+    {
+      "id": "蒸汽与机械之神",
+      "label": "蒸汽与机械之神",
+      "x": 0.357962,
+      "y": 0.342362,
+      "degree": 2,
+      "weighted_degree": 3,
+      "core_score": 31.76
+    },
+    {
+      "id": "特莉丝",
+      "label": "特莉丝",
+      "x": 0.303476,
+      "y": 0.395382,
+      "degree": 3,
+      "weighted_degree": 9,
+      "core_score": 45.0
+    },
+    {
+      "id": "赫拉伯根",
+      "label": "赫拉伯根",
+      "x": 0.887648,
+      "y": 0.468493,
+      "degree": 1,
+      "weighted_degree": 1,
+      "core_score": 18.0
+    },
+    {
+      "id": "巴德海尔",
+      "label": "巴德海尔",
+      "x": 0.92,
+      "y": 0.421339,
+      "degree": 1,
+      "weighted_degree": 1,
+      "core_score": 18.0
+    },
+    {
+      "id": "赫密斯",
+      "label": "赫密斯",
+      "x": 0.276615,
+      "y": 0.541221,
+      "degree": 1,
+      "weighted_degree": 6,
+      "core_score": 40.09
+    },
+    {
+      "id": "黑座之王",
+      "label": "黑座之王",
+      "x": 0.245035,
+      "y": 0.653669,
+      "degree": 1,
+      "weighted_degree": 2,
+      "core_score": 26.96
+    },
+    {
+      "id": "血之上将",
+      "label": "血之上将",
+      "x": 0.203786,
+      "y": 0.393291,
+      "degree": 4,
+      "weighted_degree": 21,
+      "core_score": 55.14
+    },
+    {
+      "id": "隐匿贤者",
+      "label": "隐匿贤者",
+      "x": 0.190838,
+      "y": 0.551548,
+      "degree": 4,
+      "weighted_degree": 6,
+      "core_score": 40.09
+    },
+    {
+      "id": "杰克斯",
+      "label": "杰克斯",
+      "x": 0.299672,
+      "y": 0.616339,
+      "degree": 1,
+      "weighted_degree": 2,
+      "core_score": 26.96
+    },
+    {
+      "id": "卡拉曼",
+      "label": "卡拉曼",
+      "x": 0.151687,
+      "y": 0.50853,
+      "degree": 3,
+      "weighted_degree": 4,
+      "core_score": 35.2
+    },
+    {
+      "id": "亚恩·考特曼",
+      "label": "亚恩·考特曼",
+      "x": 0.167903,
+      "y": 0.367598,
+      "degree": 4,
+      "weighted_degree": 7,
+      "core_score": 41.96
+    },
+    {
+      "id": "帕特里克·布雷恩",
+      "label": "帕特里克·布雷恩",
+      "x": 0.134842,
+      "y": 0.308419,
+      "degree": 1,
+      "weighted_degree": 2,
+      "core_score": 26.96
+    },
+    {
+      "id": "麦哈姆斯",
+      "label": "麦哈姆斯",
+      "x": 0.346775,
+      "y": 0.491308,
+      "degree": 1,
+      "weighted_degree": 2,
+      "core_score": 26.96
+    },
+    {
+      "id": "罗萨戈",
+      "label": "罗萨戈",
+      "x": 0.26572,
+      "y": 0.58459,
+      "degree": 2,
+      "weighted_degree": 4,
+      "core_score": 35.2
+    },
+    {
+      "id": "乌特拉夫斯基",
+      "label": "乌特拉夫斯基",
+      "x": 0.21021,
+      "y": 0.572827,
+      "degree": 2,
+      "weighted_degree": 5,
+      "core_score": 37.89
+    },
+    {
+      "id": "莉莉丝",
+      "label": "莉莉丝",
+      "x": 0.292001,
+      "y": 0.328989,
+      "degree": 2,
+      "weighted_degree": 6,
+      "core_score": 40.09
+    },
+    {
+      "id": "米索尔",
+      "label": "米索尔",
+      "x": 0.201446,
+      "y": 0.195126,
+      "degree": 1,
+      "weighted_degree": 2,
+      "core_score": 26.96
+    },
+    {
+      "id": "瑞乔德",
+      "label": "瑞乔德",
+      "x": 0.145964,
+      "y": 0.436086,
+      "degree": 2,
+      "weighted_degree": 4,
+      "core_score": 35.2
+    },
+    {
+      "id": "所罗门",
+      "label": "所罗门",
+      "x": 0.151414,
+      "y": 0.573305,
+      "degree": 2,
+      "weighted_degree": 3,
+      "core_score": 31.76
+    },
+    {
+      "id": "萨林格尔·艾格斯",
+      "label": "萨林格尔·艾格斯",
+      "x": 0.172971,
+      "y": 0.1,
+      "degree": 1,
+      "weighted_degree": 1,
+      "core_score": 18.0
+    },
+    {
+      "id": "萨斯利尔",
+      "label": "萨斯利尔",
+      "x": 0.229428,
+      "y": 0.148785,
+      "degree": 2,
+      "weighted_degree": 3,
+      "core_score": 31.76
+    },
+    {
+      "id": "特伦索斯特",
+      "label": "特伦索斯特",
+      "x": 0.115366,
+      "y": 0.324719,
+      "degree": 2,
+      "weighted_degree": 2,
+      "core_score": 26.96
+    },
+    {
+      "id": "雪曼",
+      "label": "雪曼",
+      "x": 0.324226,
+      "y": 0.2978,
+      "degree": 3,
+      "weighted_degree": 4,
+      "core_score": 35.2
+    },
+    {
+      "id": "宇宙暗面",
+      "label": "宇宙暗面",
+      "x": 0.145634,
+      "y": 0.682416,
+      "degree": 1,
+      "weighted_degree": 1,
+      "core_score": 18.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "A先生",
+      "target": "奥黛丽·霍尔",
+      "weight": 5,
+      "relations": {
+        "伙伴": 5
+      }
+    },
+    {
+      "source": "A先生",
+      "target": "戴里克·伯格",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "A先生",
+      "target": "克莱恩·莫雷蒂",
+      "weight": 7,
+      "relations": {
+        "伙伴": 4,
+        "上级": 2,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "A先生",
+      "target": "佛尔思·沃尔",
+      "weight": 4,
+      "relations": {
+        "伙伴": 4
+      }
+    },
+    {
+      "source": "A先生",
+      "target": "让·马丹",
+      "weight": 3,
+      "relations": {
+        "伙伴": 3
+      }
+    },
+    {
+      "source": "A先生",
+      "target": "休·迪尔查",
+      "weight": 4,
+      "relations": {
+        "伙伴": 4
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "阿尔杰·威尔逊",
+      "weight": 11,
+      "relations": {
+        "伙伴": 11
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "阿蒙",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "布提斯",
+      "weight": 2,
+      "relations": {
+        "伙伴": 1,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "克莱恩·莫雷蒂",
+      "weight": 56,
+      "relations": {
+        "伙伴": 53,
+        "敌对": 2,
+        "上级": 1
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "海柔尔·马赫特",
+      "weight": 5,
+      "relations": {
+        "伙伴": 5
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "苏茜",
+      "weight": 16,
+      "relations": {
+        "伙伴": 14,
+        "学生": 2
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "让·马丹",
+      "weight": 21,
+      "relations": {
+        "伙伴": 21
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "赫温·兰比斯",
+      "weight": 5,
+      "relations": {
+        "伙伴": 5
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "戴里克·伯格",
+      "weight": 8,
+      "relations": {
+        "伙伴": 8
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "嘉德丽雅·古斯塔夫",
+      "weight": 6,
+      "relations": {
+        "伙伴": 3,
+        "家人": 3
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "佛尔思·沃尔",
+      "weight": 23,
+      "relations": {
+        "伙伴": 23
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "伦纳德·米切尔",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "休·迪尔查",
+      "weight": 13,
+      "relations": {
+        "伙伴": 12,
+        "爱慕": 1
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "罗塞尔·古斯塔夫",
+      "weight": 3,
+      "relations": {
+        "伙伴": 2,
+        "学生": 1
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "艾弥留斯",
+      "weight": 1,
+      "relations": {
+        "上级": 1
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "查拉图",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "罗萨戈",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "奥黛丽·霍尔",
+      "target": "洛薇雅",
+      "weight": 1,
+      "relations": {
+        "家人": 1
+      }
+    },
+    {
+      "source": "戴里克·伯格",
+      "target": "阿尔杰·威尔逊",
+      "weight": 3,
+      "relations": {
+        "伙伴": 3
+      }
+    },
+    {
+      "source": "戴里克·伯格",
+      "target": "让·马丹",
+      "weight": 6,
+      "relations": {
+        "伙伴": 5,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "戴里克·伯格",
+      "target": "科林·伊利亚特",
+      "weight": 19,
+      "relations": {
+        "伙伴": 17,
+        "上级": 1,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "戴里克·伯格",
+      "target": "克莱恩·莫雷蒂",
+      "weight": 23,
+      "relations": {
+        "伙伴": 22,
+        "上级": 1
+      }
+    },
+    {
+      "source": "戴里克·伯格",
+      "target": "洛薇雅",
+      "weight": 4,
+      "relations": {
+        "上级": 2,
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "戴里克·伯格",
+      "target": "休·迪尔查",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "戴里克·伯格",
+      "target": "莎伦",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "戴里克·伯格",
+      "target": "嘉德丽雅·古斯塔夫",
+      "weight": 1,
+      "relations": {
+        "家人": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "阿尔杰·威尔逊",
+      "weight": 28,
+      "relations": {
+        "伙伴": 25,
+        "敌对": 2,
+        "上级": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "阿里安娜",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "阿蒙",
+      "weight": 25,
+      "relations": {
+        "敌对": 13,
+        "伙伴": 11,
+        "学生": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "阿兹克·艾格斯",
+      "weight": 36,
+      "relations": {
+        "伙伴": 31,
+        "上级": 3,
+        "敌对": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "艾弥留斯",
+      "weight": 12,
+      "relations": {
+        "上级": 6,
+        "伙伴": 6
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "艾斯·斯内克",
+      "weight": 5,
+      "relations": {
+        "伙伴": 5
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "艾辛格.斯坦顿",
+      "weight": 6,
+      "relations": {
+        "伙伴": 6
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "爱德华兹",
+      "weight": 3,
+      "relations": {
+        "伙伴": 2,
+        "家人": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "安德森",
+      "weight": 20,
+      "relations": {
+        "伙伴": 18,
+        "下级": 1,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "安提哥努斯",
+      "weight": 10,
+      "relations": {
+        "伙伴": 10
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "班森",
+      "weight": 12,
+      "relations": {
+        "伙伴": 10,
+        "家人": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "贝尔纳黛·古斯塔夫",
+      "weight": 8,
+      "relations": {
+        "伙伴": 8
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "不死之王",
+      "weight": 5,
+      "relations": {
+        "敌对": 4,
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "查拉图",
+      "weight": 9,
+      "relations": {
+        "伙伴": 6,
+        "敌对": 2,
+        "上级": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "达尼兹",
+      "weight": 41,
+      "relations": {
+        "伙伴": 39,
+        "上级": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "戴莉·西蒙尼",
+      "weight": 13,
+      "relations": {
+        "伙伴": 9,
+        "上级": 2,
+        "爱慕": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "邓恩·史密斯",
+      "weight": 44,
+      "relations": {
+        "伙伴": 23,
+        "上级": 19,
+        "学生": 1,
+        "老师": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "恩尤尼",
+      "weight": 13,
+      "relations": {
+        "伙伴": 12,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "弗兰克·李",
+      "weight": 7,
+      "relations": {
+        "伙伴": 7
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "佛尔思·沃尔",
+      "weight": 27,
+      "relations": {
+        "伙伴": 23,
+        "学生": 2,
+        "敌对": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "海柔尔·马赫特",
+      "weight": 6,
+      "relations": {
+        "伙伴": 6
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "赫密斯",
+      "weight": 6,
+      "relations": {
+        "伙伴": 4,
+        "上级": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "赫温·兰比斯",
+      "weight": 3,
+      "relations": {
+        "敌对": 3
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "黑座之王",
+      "weight": 2,
+      "relations": {
+        "敌对": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "吉尔希艾斯",
+      "weight": 5,
+      "relations": {
+        "伙伴": 5
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "嘉德丽雅·古斯塔夫",
+      "weight": 16,
+      "relations": {
+        "伙伴": 15,
+        "学生": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "杰克斯",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "卡拉曼",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "科林·伊利亚特",
+      "weight": 6,
+      "relations": {
+        "伙伴": 6
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "让·马丹",
+      "weight": 164,
+      "relations": {
+        "伙伴": 120,
+        "上级": 31,
+        "敌对": 8,
+        "爱慕": 3,
+        "家人": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "亚恩·考特曼",
+      "weight": 3,
+      "relations": {
+        "伙伴": 2,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "路德维尔",
+      "weight": 8,
+      "relations": {
+        "伙伴": 7,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "血之上将",
+      "weight": 12,
+      "relations": {
+        "上级": 5,
+        "伙伴": 4,
+        "敌对": 3
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "兰尔乌斯",
+      "weight": 14,
+      "relations": {
+        "伙伴": 8,
+        "上级": 3,
+        "敌对": 3
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "特莉丝",
+      "weight": 5,
+      "relations": {
+        "伙伴": 4,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "乌洛琉斯",
+      "weight": 2,
+      "relations": {
+        "敌对": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "原初魔女",
+      "weight": 4,
+      "relations": {
+        "伙伴": 2,
+        "敌对": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "老尼尔",
+      "weight": 16,
+      "relations": {
+        "伙伴": 14,
+        "学生": 1,
+        "老师": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "伦纳德·米切尔",
+      "weight": 47,
+      "relations": {
+        "伙伴": 37,
+        "上级": 6,
+        "家人": 2,
+        "学生": 1,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "莎伦",
+      "weight": 15,
+      "relations": {
+        "伙伴": 15
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "亚当",
+      "weight": 4,
+      "relations": {
+        "伙伴": 4
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "蕾妮特·缇妮科尔",
+      "weight": 13,
+      "relations": {
+        "伙伴": 13
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "洛薇雅",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "梅迪奇·索伦·埃因霍恩",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "帕特里克·布雷恩",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "罗塞尔·古斯塔夫",
+      "weight": 15,
+      "relations": {
+        "伙伴": 13,
+        "上级": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "苏茜",
+      "weight": 3,
+      "relations": {
+        "伙伴": 3
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "麦哈姆斯",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "梅丽莎",
+      "weight": 18,
+      "relations": {
+        "伙伴": 10,
+        "家人": 7,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "休·迪尔查",
+      "weight": 18,
+      "relations": {
+        "伙伴": 14,
+        "上级": 2,
+        "敌对": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "罗萨戈",
+      "weight": 3,
+      "relations": {
+        "伙伴": 3
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "乌特拉夫斯基",
+      "weight": 4,
+      "relations": {
+        "伙伴": 4
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "莉莉丝",
+      "weight": 4,
+      "relations": {
+        "伙伴": 4
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "齐林格斯",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "纳斯特",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "米索尔",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "瑞乔德",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "所罗门",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "帕列斯·索罗亚斯德",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "被缚之神",
+      "weight": 1,
+      "relations": {
+        "家人": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "隐匿贤者",
+      "weight": 2,
+      "relations": {
+        "伙伴": 1,
+        "学生": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "萨斯利尔",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "特伦索斯特",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "克莱恩·莫雷蒂",
+      "target": "雪曼",
+      "weight": 1,
+      "relations": {
+        "敌对": 1
+      }
+    },
+    {
+      "source": "佛尔思·沃尔",
+      "target": "阿尔杰·威尔逊",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "佛尔思·沃尔",
+      "target": "休·迪尔查",
+      "weight": 67,
+      "relations": {
+        "伙伴": 55,
+        "上级": 5,
+        "敌对": 4,
+        "家人": 3
+      }
+    },
+    {
+      "source": "佛尔思·沃尔",
+      "target": "罗塞尔·古斯塔夫",
+      "weight": 3,
+      "relations": {
+        "伙伴": 2,
+        "上级": 1
+      }
+    },
+    {
+      "source": "佛尔思·沃尔",
+      "target": "苏茜",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "佛尔思·沃尔",
+      "target": "嘉德丽雅·古斯塔夫",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "佛尔思·沃尔",
+      "target": "让·马丹",
+      "weight": 7,
+      "relations": {
+        "伙伴": 7
+      }
+    },
+    {
+      "source": "佛尔思·沃尔",
+      "target": "蒸汽与机械之神",
+      "weight": 2,
+      "relations": {
+        "学生": 2
+      }
+    },
+    {
+      "source": "佛尔思·沃尔",
+      "target": "赫温·兰比斯",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "佛尔思·沃尔",
+      "target": "雪曼",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "佛尔思·沃尔",
+      "target": "亚当",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "X先生",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "阿尔杰·威尔逊",
+      "weight": 11,
+      "relations": {
+        "伙伴": 9,
+        "上级": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "阿蒙",
+      "weight": 5,
+      "relations": {
+        "敌对": 5
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "阿兹克·艾格斯",
+      "weight": 12,
+      "relations": {
+        "伙伴": 12
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "艾斯·斯内克",
+      "weight": 4,
+      "relations": {
+        "伙伴": 4
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "安德森",
+      "weight": 7,
+      "relations": {
+        "伙伴": 5,
+        "敌对": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "安提哥努斯",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "班森",
+      "weight": 4,
+      "relations": {
+        "伙伴": 4
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "不死之王",
+      "weight": 3,
+      "relations": {
+        "伙伴": 2,
+        "上级": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "查拉图",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "达尼兹",
+      "weight": 6,
+      "relations": {
+        "伙伴": 6
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "戴莉·西蒙尼",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "邓恩·史密斯",
+      "weight": 9,
+      "relations": {
+        "伙伴": 6,
+        "上级": 3
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "恩尤尼",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "吉尔希艾斯",
+      "weight": 6,
+      "relations": {
+        "伙伴": 6
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "嘉德丽雅·古斯塔夫",
+      "weight": 3,
+      "relations": {
+        "伙伴": 2,
+        "家人": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "科林·伊利亚特",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "兰尔乌斯",
+      "weight": 4,
+      "relations": {
+        "伙伴": 3,
+        "上级": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "老尼尔",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "蕾妮特·缇妮科尔",
+      "weight": 4,
+      "relations": {
+        "伙伴": 4
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "莉莉丝",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "路德维尔",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "伦纳德·米切尔",
+      "weight": 10,
+      "relations": {
+        "伙伴": 10
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "罗塞尔·古斯塔夫",
+      "weight": 5,
+      "relations": {
+        "上级": 2,
+        "伙伴": 2,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "洛薇雅",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "梅丽莎",
+      "weight": 5,
+      "relations": {
+        "伙伴": 4,
+        "家人": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "卡拉曼",
+      "weight": 1,
+      "relations": {
+        "敌对": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "齐林格斯",
+      "weight": 1,
+      "relations": {
+        "敌对": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "弗兰克·李",
+      "weight": 1,
+      "relations": {
+        "敌对": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "莎伦",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "休·迪尔查",
+      "weight": 8,
+      "relations": {
+        "伙伴": 8
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "瑞乔德",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "特莉丝",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "血之上将",
+      "weight": 5,
+      "relations": {
+        "伙伴": 3,
+        "上级": 2
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "贝尔纳黛·古斯塔夫",
+      "weight": 1,
+      "relations": {
+        "家人": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "乌特拉夫斯基",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "亚恩·考特曼",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "隐匿贤者",
+      "weight": 1,
+      "relations": {
+        "上级": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "宇宙暗面",
+      "weight": 1,
+      "relations": {
+        "上级": 1
+      }
+    },
+    {
+      "source": "让·马丹",
+      "target": "原初魔女",
+      "weight": 1,
+      "relations": {
+        "上级": 1
+      }
+    },
+    {
+      "source": "休·迪尔查",
+      "target": "艾辛格.斯坦顿",
+      "weight": 2,
+      "relations": {
+        "上级": 2
+      }
+    },
+    {
+      "source": "休·迪尔查",
+      "target": "安德森",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "休·迪尔查",
+      "target": "达尼兹",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "休·迪尔查",
+      "target": "邓恩·史密斯",
+      "weight": 3,
+      "relations": {
+        "伙伴": 2,
+        "下级": 1
+      }
+    },
+    {
+      "source": "休·迪尔查",
+      "target": "科林·伊利亚特",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "休·迪尔查",
+      "target": "伦纳德·米切尔",
+      "weight": 5,
+      "relations": {
+        "伙伴": 4,
+        "下级": 1
+      }
+    },
+    {
+      "source": "休·迪尔查",
+      "target": "梅丽莎",
+      "weight": 2,
+      "relations": {
+        "家人": 2
+      }
+    },
+    {
+      "source": "休·迪尔查",
+      "target": "齐林格斯",
+      "weight": 4,
+      "relations": {
+        "伙伴": 4
+      }
+    },
+    {
+      "source": "休·迪尔查",
+      "target": "苏茜",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "休·迪尔查",
+      "target": "雪曼",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "休·迪尔查",
+      "target": "亚当",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "阿尔杰·威尔逊",
+      "target": "夏尔",
+      "weight": 6,
+      "relations": {
+        "伙伴": 6
+      }
+    },
+    {
+      "source": "阿尔杰·威尔逊",
+      "target": "嘉德丽雅·古斯塔夫",
+      "weight": 9,
+      "relations": {
+        "伙伴": 9
+      }
+    },
+    {
+      "source": "阿尔杰·威尔逊",
+      "target": "路德维尔",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "阿尔杰·威尔逊",
+      "target": "达尼兹",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "阿尔杰·威尔逊",
+      "target": "罗塞尔·古斯塔夫",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "嘉德丽雅·古斯塔夫",
+      "target": "阿蒙",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "嘉德丽雅·古斯塔夫",
+      "target": "安德森",
+      "weight": 3,
+      "relations": {
+        "伙伴": 3
+      }
+    },
+    {
+      "source": "嘉德丽雅·古斯塔夫",
+      "target": "贝尔纳黛·古斯塔夫",
+      "weight": 7,
+      "relations": {
+        "家人": 6,
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "嘉德丽雅·古斯塔夫",
+      "target": "布提斯",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "嘉德丽雅·古斯塔夫",
+      "target": "弗兰克·李",
+      "weight": 4,
+      "relations": {
+        "伙伴": 4
+      }
+    },
+    {
+      "source": "嘉德丽雅·古斯塔夫",
+      "target": "血之上将",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "嘉德丽雅·古斯塔夫",
+      "target": "罗塞尔·古斯塔夫",
+      "weight": 6,
+      "relations": {
+        "家人": 6
+      }
+    },
+    {
+      "source": "嘉德丽雅·古斯塔夫",
+      "target": "隐匿贤者",
+      "weight": 2,
+      "relations": {
+        "学生": 2
+      }
+    },
+    {
+      "source": "路德维尔",
+      "target": "阿兹克·艾格斯",
+      "weight": 2,
+      "relations": {
+        "敌对": 2
+      }
+    },
+    {
+      "source": "路德维尔",
+      "target": "戴莉·西蒙尼",
+      "weight": 2,
+      "relations": {
+        "敌对": 2
+      }
+    },
+    {
+      "source": "路德维尔",
+      "target": "梅迪奇·索伦·埃因霍恩",
+      "weight": 4,
+      "relations": {
+        "敌对": 4
+      }
+    },
+    {
+      "source": "阿蒙",
+      "target": "帕列斯·索罗亚斯德",
+      "weight": 3,
+      "relations": {
+        "敌对": 2,
+        "上级": 1
+      }
+    },
+    {
+      "source": "阿蒙",
+      "target": "伦纳德·米切尔",
+      "weight": 8,
+      "relations": {
+        "伙伴": 4,
+        "敌对": 4
+      }
+    },
+    {
+      "source": "阿蒙",
+      "target": "罗塞尔·古斯塔夫",
+      "weight": 1,
+      "relations": {
+        "敌对": 1
+      }
+    },
+    {
+      "source": "阿蒙",
+      "target": "纳斯特",
+      "weight": 2,
+      "relations": {
+        "敌对": 2
+      }
+    },
+    {
+      "source": "阿蒙",
+      "target": "乌洛琉斯",
+      "weight": 2,
+      "relations": {
+        "敌对": 2
+      }
+    },
+    {
+      "source": "阿蒙",
+      "target": "原初魔女",
+      "weight": 2,
+      "relations": {
+        "敌对": 2
+      }
+    },
+    {
+      "source": "阿蒙",
+      "target": "梅迪奇·索伦·埃因霍恩",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "阿蒙",
+      "target": "洛薇雅",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "阿蒙",
+      "target": "亚当",
+      "weight": 3,
+      "relations": {
+        "伙伴": 2,
+        "敌对": 1
+      }
+    },
+    {
+      "source": "阿蒙",
+      "target": "安提哥努斯",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "阿蒙",
+      "target": "查拉图",
+      "weight": 1,
+      "relations": {
+        "敌对": 1
+      }
+    },
+    {
+      "source": "阿蒙",
+      "target": "特伦索斯特",
+      "weight": 1,
+      "relations": {
+        "敌对": 1
+      }
+    },
+    {
+      "source": "帕列斯·索罗亚斯德",
+      "target": "伦纳德·米切尔",
+      "weight": 8,
+      "relations": {
+        "伙伴": 4,
+        "上级": 2,
+        "敌对": 2
+      }
+    },
+    {
+      "source": "伦纳德·米切尔",
+      "target": "戴莉·西蒙尼",
+      "weight": 8,
+      "relations": {
+        "伙伴": 6,
+        "敌对": 2
+      }
+    },
+    {
+      "source": "伦纳德·米切尔",
+      "target": "邓恩·史密斯",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "伦纳德·米切尔",
+      "target": "蕾妮特·缇妮科尔",
+      "weight": 6,
+      "relations": {
+        "伙伴": 6
+      }
+    },
+    {
+      "source": "罗塞尔·古斯塔夫",
+      "target": "贝尔纳黛·古斯塔夫",
+      "weight": 6,
+      "relations": {
+        "家人": 4,
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "罗塞尔·古斯塔夫",
+      "target": "博诺瓦·古斯塔夫",
+      "weight": 2,
+      "relations": {
+        "家人": 2
+      }
+    },
+    {
+      "source": "罗塞尔·古斯塔夫",
+      "target": "蒸汽与机械之神",
+      "weight": 1,
+      "relations": {
+        "敌对": 1
+      }
+    },
+    {
+      "source": "罗塞尔·古斯塔夫",
+      "target": "安德森",
+      "weight": 1,
+      "relations": {
+        "上级": 1
+      }
+    },
+    {
+      "source": "纳斯特",
+      "target": "达尼兹",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "乌洛琉斯",
+      "target": "梅迪奇·索伦·埃因霍恩",
+      "weight": 4,
+      "relations": {
+        "伙伴": 4
+      }
+    },
+    {
+      "source": "乌洛琉斯",
+      "target": "原初魔女",
+      "weight": 2,
+      "relations": {
+        "敌对": 2
+      }
+    },
+    {
+      "source": "原初魔女",
+      "target": "邓恩·史密斯",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "原初魔女",
+      "target": "萨斯利尔",
+      "weight": 2,
+      "relations": {
+        "伙伴": 1,
+        "家人": 1
+      }
+    },
+    {
+      "source": "洛薇雅",
+      "target": "科林·伊利亚特",
+      "weight": 4,
+      "relations": {
+        "上级": 2,
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "亚当",
+      "target": "安提哥努斯",
+      "weight": 2,
+      "relations": {
+        "上级": 1,
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "安提哥努斯",
+      "target": "阿兹克·艾格斯",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "安提哥努斯",
+      "target": "兰尔乌斯",
+      "weight": 2,
+      "relations": {
+        "敌对": 2
+      }
+    },
+    {
+      "source": "安提哥努斯",
+      "target": "邓恩·史密斯",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "阿兹克·艾格斯",
+      "target": "齐林格斯",
+      "weight": 4,
+      "relations": {
+        "伙伴": 2,
+        "敌对": 2
+      }
+    },
+    {
+      "source": "阿兹克·艾格斯",
+      "target": "班森",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "阿兹克·艾格斯",
+      "target": "贝尔纳黛·古斯塔夫",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "阿兹克·艾格斯",
+      "target": "查拉图",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "阿兹克·艾格斯",
+      "target": "达尼兹",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "阿兹克·艾格斯",
+      "target": "萨林格尔·艾格斯",
+      "weight": 1,
+      "relations": {
+        "家人": 1
+      }
+    },
+    {
+      "source": "班森",
+      "target": "梅丽莎",
+      "weight": 18,
+      "relations": {
+        "伙伴": 13,
+        "家人": 3,
+        "爱慕": 2
+      }
+    },
+    {
+      "source": "贝尔纳黛·古斯塔夫",
+      "target": "弗兰克·李",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "贝尔纳黛·古斯塔夫",
+      "target": "查拉图",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "艾弥留斯",
+      "target": "赫温·兰比斯",
+      "weight": 4,
+      "relations": {
+        "上级": 4
+      }
+    },
+    {
+      "source": "艾斯·斯内克",
+      "target": "吉尔希艾斯",
+      "weight": 8,
+      "relations": {
+        "伙伴": 8
+      }
+    },
+    {
+      "source": "艾斯·斯内克",
+      "target": "不死之王",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "爱德华兹",
+      "target": "达尼兹",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "达尼兹",
+      "target": "安德森",
+      "weight": 16,
+      "relations": {
+        "伙伴": 16
+      }
+    },
+    {
+      "source": "达尼兹",
+      "target": "亚恩·考特曼",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "安德森",
+      "target": "不死之王",
+      "weight": 2,
+      "relations": {
+        "敌对": 2
+      }
+    },
+    {
+      "source": "安德森",
+      "target": "蕾妮特·缇妮科尔",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "兰尔乌斯",
+      "target": "邓恩·史密斯",
+      "weight": 4,
+      "relations": {
+        "上级": 2,
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "邓恩·史密斯",
+      "target": "戴莉·西蒙尼",
+      "weight": 1,
+      "relations": {
+        "爱慕": 1
+      }
+    },
+    {
+      "source": "邓恩·史密斯",
+      "target": "老尼尔",
+      "weight": 5,
+      "relations": {
+        "上级": 3,
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "布提斯",
+      "target": "克斯玛",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "海柔尔·马赫特",
+      "target": "特莉丝",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "弗兰克·李",
+      "target": "蕾妮特·缇妮科尔",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "被缚之神",
+      "target": "斯厄阿",
+      "weight": 2,
+      "relations": {
+        "家人": 2
+      }
+    },
+    {
+      "source": "科林·伊利亚特",
+      "target": "恩尤尼",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "莎伦",
+      "target": "蕾妮特·缇妮科尔",
+      "weight": 2,
+      "relations": {
+        "老师": 2
+      }
+    },
+    {
+      "source": "莎伦",
+      "target": "卡拉曼",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "戴莉·西蒙尼",
+      "target": "蕾妮特·缇妮科尔",
+      "weight": 2,
+      "relations": {
+        "伙伴": 2
+      }
+    },
+    {
+      "source": "赫拉伯根",
+      "target": "巴德海尔",
+      "weight": 1,
+      "relations": {
+        "伙伴": 1
+      }
+    },
+    {
+      "source": "血之上将",
+      "target": "亚恩·考特曼",
+      "weight": 2,
+      "relations": {
+        "敌对": 2
+      }
+    },
+    {
+      "source": "隐匿贤者",
+      "target": "所罗门",
+      "weight": 1,
+      "relations": {
+        "敌对": 1
+      }
+    }
+  ],
+  "meta": {
+    "node_count": 79,
+    "edge_count": 234,
+    "layout_seed": 42,
+    "generated_at": "2026-05-24T13:35:51Z"
+  }
+}
