@@ -225,6 +225,21 @@
       font-size: 15px;
       margin-bottom: 6px;
     }
+    @media (max-width: 560px) {
+      body.cg-embed .cg-shell {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+      body.cg-embed .cg-graph {
+        padding: 12px;
+      }
+      body.cg-embed .cg-side {
+        display: none;
+      }
+      body.cg-embed .cg-canvas-shell {
+        border-radius: 16px;
+      }
+    }
     @media (max-width: 760px) {
       .cg-shell {
         grid-template-columns: 1fr;
